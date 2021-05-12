@@ -6,6 +6,8 @@ metadata:
     app.kubernetes.io/version: v1.9.8
   name: kube-state-metrics
   namespace: kube-system
+  annotations:  
+   prometheus.io/scrape: "true" 
 spec:
   clusterIP: None
   ports:
