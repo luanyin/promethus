@@ -22,16 +22,6 @@ kube-metrics用于[`client-go`](https://github.com/kubernetes/client-go)与Kuber
 
 # 用法
 
-```
-cd kubernetes/examples/kube-metrics
-kubectl apply -f .
-
-```
-
-
-
-# 用法
-
 安装插件kube-metrics
 
 ```
